@@ -14,7 +14,7 @@ include "includes/categorias.php"
                 <h3 class="titulo-produto">Camiseta Conforto</h3>
                 <p class="descricao-produto">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
                 <h3 class="preco-produto">R$ 70,00</h3>
-                <a href="#" class="botao-produto">Ver mais</a>
+                <a href="produto.php" class="botao-produto">Ver mais</a>
             </div>
             <div class="item-produto">
                 <img src="images/calca.png" class="foto-produto">
@@ -54,21 +54,17 @@ include "includes/categorias.php"
         </div>
     </div>
 
-    <?php 
+<?php 
 include "includes/facilidades.php"
 ?>
 
  
-
-    <div class="promocoes">
-        <h3 class="titulo-promocoes">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h3>
-        <form class="formulario-promocoes">
-            <input type="text" class="campo-promocoes" placeholder="Digite seu email">
-            <button type="button" class="botao-promocoes">Enviar</button>
-        </form>
-    </div>
+<?php 
+include "includes/newletter.php"
+?>
+    
    
-    <?php 
+<?php 
 include "includes/rodape.php"
 ?>
     <script src="app.js"></script>

@@ -1,3 +1,8 @@
+<?php 
+include "includes/cabecalho.php";
+include "includes/banner.php";
+include "includes/categorias.php"
+?>
 
     <div class="categorias">
         <h2 class="titulo">ÓCULOS</h2>
@@ -51,3 +56,17 @@
            
         </div>
     </div>
+
+    <?php 
+include "includes/facilidades.php"
+?>
+
+ 
+<?php 
+include "includes/newletter.php"
+?>
+    
+   
+<?php 
+include "includes/rodape.php"
+?>
